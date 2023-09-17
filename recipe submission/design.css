@@ -1,0 +1,147 @@
+/* styling for login page */
+.food-img {
+    width: 600px;
+    height: 700px;
+    background-size: cover;
+}
+
+label, input, button {
+    display: block;
+    font-size: 25px;
+    font-family: 'Times New Roman';
+    color:bisque;
+}
+
+#username, #password, #contactno, #passwd {
+    color: black;
+}
+
+
+.sub-container {
+    display: flex;
+    justify-content: center;
+    padding-right: 200px;
+    padding-left: 200px;
+    color: bisque;
+    align-items: center;
+
+}
+
+.spoon-red, h1{
+    display: inline;
+    width: 150px;
+    height: 50px;
+    font-size: 60px;
+    font-family: 'Times New Roman';
+    color: #DE5D47;
+}
+h2{
+    font-size: 50px;
+    font-family: 'Times New Roman';
+    text-decoration: underline;
+}
+
+body{
+    background-color: #091114;
+}
+
+input, button{
+    margin: 25px 0px;
+    font-weight: bold;
+    border-radius: 4px;
+    border: none;
+    padding: 5px 15px;
+}
+
+button{
+    color: #DE5D47;
+    font-style: bold;
+    border-radius: 4px;
+    border: none;
+    padding: 5px 15px;
+    margin:50px 120px;
+}
+h3 {
+margin-left: 100px;
+}
+a{
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.title, img {
+    display: flex;
+    color: #DE5D47;
+    width: 150px;
+    height: 70px;
+    margin-top: -11px;
+    padding: 0px 0px 10px 20px;
+}
+.img-reg {
+    display: flex;
+    text-align: center;
+    color: antiquewhite;
+    font-size: 1px;
+}
+
+.reg-img{
+    width: 600px;
+    height: 700px;
+}
+
+.user-cont, .mail-passwd{
+    padding: 0px 0px;
+}
+.reg-btn{
+    color: #DE5D47;
+    font-style: bold;
+    border-radius: 4px;
+    border: none;
+    padding: 5px 15px;
+    margin-left: 320px;
+}
+.reg-cl{
+    display: flex;
+    margin: 20px;
+}
+.rec-img{
+    margin: auto;
+    height: 250px;
+    width: 1500px;
+    background-size: cover;
+}
+p{
+    font-size:40px;
+    color: #DE5D47;
+    text-align: center;
+    margin-top:5px;
+}
+.ingredientsContainer{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+
+}
+.name-grp{
+    padding-left: 580px;
+}
+.name-label{
+    padding-left: 100px;
+    text-decoration: underline;
+
+
+}
+.upload-btn{
+    padding-left:550px;
+}
+.up{
+    padding-top: 50px;
+    padding-left: 30px;
+
+}
+.img-file{
+    padding-top: 2px;
+    padding-left: 50px;
+    font-size: 20px;
+}

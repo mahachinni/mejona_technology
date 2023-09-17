@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="design.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Recipe_Sharing_Website</title>
+</head>
+<body>
+    <nav>
+        <h1>Bake With Love !!</h1>
+        <p>Share IT || Enjoy IT</p>
+    </nav>
+    <div class="core-container">
+        <div class="sub-container">
+            <img src="images/recipe-img.jpg"
+            alt="foods images"
+            width="500%"
+            class="food-img">
+            <div class="contain">
+                <img src="Images/spoon.jpg"
+                alt="spoon with spices"
+                class="spoon-red">
+                <div class="container">
+                    <h2>Register</h2>
+                    <form action="login.html"
+                    class="register-form"
+
+                        onsubmit="return validateForm()">
+                        <label for="username">Username</label>
+                        <input type="text" placeholder="Enter your username" id="username" required>
+                        <label for="email">Email Address</label>
+                        <input type="email" placeholder="abc@gmail.com" id="email" required>
+                        <label for="contact">Contact Number</label>
+                        <input type="tel" placeholder="Enter your contact number" id="contact" required>
+                        <label for="password">Password</label>
+                        <input type="password" placeholder="Enter your password" id="password" required>
+                        <button type="submit">Register</button>
+                        <label for="login">Already have an account👀<a href="login.html">Login now!</a></label>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="register_validation.js"></script> <!-- Make sure to include the register validation script -->
+</body>
+</html>
